@@ -65,7 +65,7 @@ To practice FinOps automation concepts, I built a Lambda function that monitors 
 
 As a hands-on learning project, I created an automated tagging enforcement system to understand cost allocation best practices. Using EventBridge rules and Lambda functions, I built a system that validates tags on EC2, RDS, and S3 resources, enforcing a tagging policy with required fields like Environment, Owner, and Project. The project includes a simple dashboard that tracks tagging compliance percentage and identifies non-compliant resources. This simulation taught me how enterprises maintain cost visibility across multiple teams and projects.
 
-**Repository:** [aws-tagging-compliance-automation](https://github.com/nicolepaixao/aws-tagging-compliance-automation)
+**Repository:** [aws-tagging-compliance-automation](https://github.com/nicoleepaixao/aws-tagging-compliance-automation)
 
 ---
 
@@ -73,7 +73,7 @@ As a hands-on learning project, I created an automated tagging enforcement syste
 
 To reduce costs in my personal AWS account, I developed a scheduler that automatically stops EC2 instances and RDS databases during off-hours. The solution uses resource tags (AutoStop: enabled, Schedule: weekdays-9to18) and EventBridge rules to manage start/stop times. I added SNS notifications 15 minutes before shutdown and a simple web interface to manage schedules. This project demonstrated how development teams can significantly reduce infrastructure costs without impacting productivity, teaching me practical cost optimization techniques.
 
-**Repository:** [aws-nonprod-cost-optimizer](https://github.com/nicolepaixao/aws-nonprod-cost-optimizer)
+**Repository:** [aws-nonprod-cost-optimizer](https://github.com/nicoleepaixao/aws-nonprod-cost-optimizer)
 
 ---
 
@@ -81,7 +81,7 @@ To reduce costs in my personal AWS account, I developed a scheduler that automat
 
 As a learning exercise for Kubernetes cost optimization, I deployed a personal EKS cluster and implemented Karpenter for intelligent autoscaling. I configured NodePools to use Spot instances where possible, set up consolidation to reduce node count, and implemented pod topology constraints. By comparing costs before and after Karpenter implementation using AWS Cost Explorer, I documented the cost reduction techniques. This hands-on project helped me understand how enterprises optimize Kubernetes infrastructure costs at scale.
 
-**Repository:** [karpenter-aws-eks-cost-optimization](https://github.com/nicolepaixao/karpenter-aws-eks-cost-optimization)
+**Repository:** [karpenter-aws-eks-cost-optimization](https://github.com/nicoleepaixao/karpenter-aws-eks-cost-optimization)
 
 ---
 
@@ -89,7 +89,7 @@ As a learning exercise for Kubernetes cost optimization, I deployed a personal E
 
 To understand commitment-based discounts, I built a Python tool that analyzes AWS Cost and Usage Reports to identify Savings Plans opportunities. The script downloads CUR data from S3, analyzes usage patterns over 3-6 months, and generates recommendations for compute Savings Plans. It calculates potential savings, break-even periods, and compares 1-year vs 3-year commitments. This project simulated the analysis financial operations teams perform when optimizing cloud spending and helped me understand the economics of commitment discounts.
 
-**Repository:** [aws-savings-plans-recommendation-engine](https://github.com/nicolepaixao/aws-savings-plans-recommendation-engine)
+**Repository:** [aws-savings-plans-recommendation-engine](https://github.com/nicoleepaixao/aws-savings-plans-recommendation-engine)
 
 ---
 
@@ -97,7 +97,7 @@ To understand commitment-based discounts, I built a Python tool that analyzes AW
 
 As a practical application of AWS Cost Anomaly Detection, I built a dashboard that visualizes cost anomalies in my personal AWS account. Using the AWS Cost Anomaly Detection API, I created a web interface with Chart.js that displays detected anomalies, their root causes, and cost impact. The system sends Slack notifications when anomalies are detected. This project helped me understand how organizations implement proactive cost monitoring and the importance of setting appropriate anomaly detection thresholds.
 
-**Repository:** [aws-cost-anomaly-detection-dashboard](https://github.com/nicolepaixao/aws-cost-anomaly-detection-dashboard)
+**Repository:** [aws-cost-anomaly-detection-dashboard](https://github.com/nicoleepaixao/aws-cost-anomaly-detection-dashboard)
 
 ---
 
@@ -105,7 +105,7 @@ As a practical application of AWS Cost Anomaly Detection, I built a dashboard th
 
 To understand multi-cloud economics, I created a comparison tool that estimates costs for equivalent workloads across AWS, Azure, and GCP. The tool takes infrastructure specifications (compute, storage, network) as input and queries pricing APIs from all three providers to generate cost comparisons. I included factors like commitment discounts, data transfer costs, and regional variations. This educational project helped me understand how organizations make informed decisions about cloud provider selection and workload placement strategies.
 
-**Repository:** [aws-multi-cloud-cost-comparison](https://github.com/nicolepaixao/aws-multi-cloud-cost-comparison)
+**Repository:** [aws-multi-cloud-cost-comparison](https://github.com/nicoleepaixao/aws-multi-cloud-cost-comparison)
 
 ---
 
@@ -118,5 +118,6 @@ To understand multi-cloud economics, I created a comparison tool that estimates 
 [← Back to Main Profile](../README.md)
 
 </div>
+
 
 

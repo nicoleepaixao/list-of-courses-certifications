@@ -44,10 +44,10 @@
 
 | Attempt | Date | Score | Notes |
 |---------|------|-------|-------|
-| Practice Test #1 | 10/15/2024 | 68% | First attempt - identified weak areas in cost allocation |
-| Practice Test #2 | 10/22/2024 | 78% | Improved on showback/chargeback concepts |
-| Practice Test #3 | 10/29/2024 | 85% | Strong performance across all domains |
-| Official Practice | 11/05/2024 | 88% | Ready for certification |
+| Practice Test #1 | 10/15/2025 | 68% | First attempt - identified weak areas in cost allocation |
+| Practice Test #2 | 10/22/2025 | 78% | Improved on showback/chargeback concepts |
+| Practice Test #3 | 10/29/2025 | 85% | Strong performance across all domains |
+| Official Practice | 11/05/2025 | 88% | Ready for certification |
 
 ---
 
@@ -73,7 +73,7 @@ As a hands-on learning project, I created an automated tagging enforcement syste
 
 To reduce costs in my personal AWS account, I developed a scheduler that automatically stops EC2 instances and RDS databases during off-hours. The solution uses resource tags (AutoStop: enabled, Schedule: weekdays-9to18) and EventBridge rules to manage start/stop times. I added SNS notifications 15 minutes before shutdown and a simple web interface to manage schedules. This project demonstrated how development teams can significantly reduce infrastructure costs without impacting productivity, teaching me practical cost optimization techniques.
 
-**Repository:** [aws-resource-scheduler](https://github.com/nicolepaixao/aws-resource-scheduler)
+**Repository:** [aws-nonprod-cost-optimizer](https://github.com/nicolepaixao/aws-nonprod-cost-optimizer)
 
 ---
 
@@ -81,7 +81,7 @@ To reduce costs in my personal AWS account, I developed a scheduler that automat
 
 As a learning exercise for Kubernetes cost optimization, I deployed a personal EKS cluster and implemented Karpenter for intelligent autoscaling. I configured NodePools to use Spot instances where possible, set up consolidation to reduce node count, and implemented pod topology constraints. By comparing costs before and after Karpenter implementation using AWS Cost Explorer, I documented the cost reduction techniques. This hands-on project helped me understand how enterprises optimize Kubernetes infrastructure costs at scale.
 
-**Repository:** [karpenter-eks-cost-optimization](https://github.com/nicolepaixao/karpenter-eks-cost-optimization)
+**Repository:** [karpenter-aws-eks-cost-optimization](https://github.com/nicolepaixao/karpenter-aws-eks-cost-optimization)
 
 ---
 
@@ -89,7 +89,7 @@ As a learning exercise for Kubernetes cost optimization, I deployed a personal E
 
 To understand commitment-based discounts, I built a Python tool that analyzes AWS Cost and Usage Reports to identify Savings Plans opportunities. The script downloads CUR data from S3, analyzes usage patterns over 3-6 months, and generates recommendations for compute Savings Plans. It calculates potential savings, break-even periods, and compares 1-year vs 3-year commitments. This project simulated the analysis financial operations teams perform when optimizing cloud spending and helped me understand the economics of commitment discounts.
 
-**Repository:** [savings-plans-recommendation-engine](https://github.com/nicolepaixao/savings-plans-recommendation-engine)
+**Repository:** [aws-savings-plans-recommendation-engine](https://github.com/nicolepaixao/aws-savings-plans-recommendation-engine)
 
 ---
 
@@ -97,15 +97,7 @@ To understand commitment-based discounts, I built a Python tool that analyzes AW
 
 As a practical application of AWS Cost Anomaly Detection, I built a dashboard that visualizes cost anomalies in my personal AWS account. Using the AWS Cost Anomaly Detection API, I created a web interface with Chart.js that displays detected anomalies, their root causes, and cost impact. The system sends Slack notifications when anomalies are detected. This project helped me understand how organizations implement proactive cost monitoring and the importance of setting appropriate anomaly detection thresholds.
 
-**Repository:** [cost-anomaly-detection-dashboard](https://github.com/nicolepaixao/cost-anomaly-detection-dashboard)
-
----
-
-### Budget Forecasting with Machine Learning
-
-To learn about predictive cost management, I developed a forecasting model using Python and scikit-learn that predicts future AWS costs based on historical data. The project uses Cost Explorer API to fetch 6-12 months of cost history, applies time-series forecasting techniques, and generates monthly predictions with confidence intervals. I created visualizations comparing predicted vs actual costs to evaluate model accuracy. This hands-on project taught me how FinOps teams use data science for budget planning and cost prediction.
-
-**Repository:** [budget-forecasting-ml](https://github.com/nicolepaixao/budget-forecasting-ml)
+**Repository:** [aws-cost-anomaly-detection-dashboard](https://github.com/nicolepaixao/aws-cost-anomaly-detection-dashboard)
 
 ---
 
@@ -113,7 +105,7 @@ To learn about predictive cost management, I developed a forecasting model using
 
 To understand multi-cloud economics, I created a comparison tool that estimates costs for equivalent workloads across AWS, Azure, and GCP. The tool takes infrastructure specifications (compute, storage, network) as input and queries pricing APIs from all three providers to generate cost comparisons. I included factors like commitment discounts, data transfer costs, and regional variations. This educational project helped me understand how organizations make informed decisions about cloud provider selection and workload placement strategies.
 
-**Repository:** [multi-cloud-cost-comparison](https://github.com/nicolepaixao/multi-cloud-cost-comparison)
+**Repository:** [aws-multi-cloud-cost-comparison](https://github.com/nicolepaixao/aws-multi-cloud-cost-comparison)
 
 ---
 
@@ -126,3 +118,4 @@ To understand multi-cloud economics, I created a comparison tool that estimates 
 [← Back to Main Profile](../README.md)
 
 </div>
+

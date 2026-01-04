@@ -57,7 +57,7 @@
 
 To practice FinOps automation concepts, I built a Lambda function that monitors Reserved Instance expirations in my AWS account. The function queries the AWS Cost Explorer API daily to identify RIs expiring within 90, 60, and 30 days, sending notifications via SNS to email or Slack. I implemented configurable alert thresholds and included cost impact analysis in the notifications. This project helped me understand RI lifecycle management and automated cost monitoring strategies used in production environments.
 
-**Repository:** [aws-reserved-instance-expiration-alert](https://github.com/nicolepaixao/aws-reserved-instance-expiration-alert)
+**Repository:** [aws-reserved-instance-expiration-alert](https://github.com/nicoleepaixao/aws-reserved-instance-expiration-alert)
 
 ---
 
@@ -118,6 +118,7 @@ To understand multi-cloud economics, I created a comparison tool that estimates 
 [← Back to Main Profile](../README.md)
 
 </div>
+
 
 
 

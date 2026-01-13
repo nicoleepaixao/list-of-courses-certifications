@@ -35,6 +35,8 @@ PUC Minas (Brazil) | Apr/2025 - Mar/2026
 <p><strong>11. SCS-C02</strong> • <strong>12. ANS-C01</strong></p>
 
 <br/>
+<br/>
+<br/>
 
 ### Kubernetes Specialist
 <img src="img/kcna-badge.png" width="140" height="140" style="opacity: 0.4;"/>
@@ -45,6 +47,8 @@ PUC Minas (Brazil) | Apr/2025 - Mar/2026
 
 <p><strong>7. KCNA</strong> • <strong>8. KSNA</strong> • <strong>9. CKA</strong> • <strong>10. CKAD</strong> • <strong>11. CKS</strong></p>
 
+<br/>
+<br/>
 <br/>
 
 ### Infrastructure as Code & Linux
@@ -64,6 +68,8 @@ PUC Minas (Brazil) | Apr/2025 - Mar/2026
   <strong>8. LFCE</strong>
 </p>
 
+<br/>
+<br/>
 <br/>
 
 ### Cloud Foundation

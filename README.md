@@ -39,10 +39,10 @@ PUC Minas (Brazil) | Apr/2025 - Mar/2026
 <br/>
 
 ### Kubernetes Specialist
-<img src="img/kcna-badge.png" width="140" height="140" style="opacity: 0.4;"/>
-<img src="img/ksna-badge.png" width="140" height="140" style="opacity: 0.4;"/>
-<img src="img/cka-badge.png" width="140" height="140" style="opacity: 0.4;"/>
-<img src="img/ckad-badge.png" width="140" height="140" style="opacity: 0.4;"/>
+<img src="img/kcna-badge.png" width="135" height="135" style="opacity: 0.4;"/>
+<img src="img/ksna-badge.png" width="135" height="135" style="opacity: 0.4;"/>
+<img src="img/cka-badge.png" width="160" height="160" style="opacity: 0.4;"/>
+<img src="img/ckad-badge.png" width="150" height="150" style="opacity: 0.4;"/>
 <img src="img/cks-badge.png" width="140" height="140" style="opacity: 0.4;"/>
 
 <p><strong>7. KCNA</strong> • <strong>8. KSNA</strong> • <strong>9. CKA</strong> • <strong>10. CKAD</strong> • <strong>11. CKS</strong></p>

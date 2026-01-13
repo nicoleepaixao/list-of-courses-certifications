@@ -28,37 +28,45 @@ PUC Minas (Brazil) | Apr/2025 - Mar/2026
 
 <div align="center">
 
-### Security & Networking Specialist
+### AWS Security & Networking Specialist
+<img src="img/aws-security-badge.png" width="150" height="150" style="opacity: 0.4;"/>
+<img src="img/aws-networking-badge.png" width="150" height="150" style="opacity: 0.4;"/>
 
-<img src="img/aws-security-badge.png" width="130" height="130" style="opacity: 0.4;"/>
-<img src="img/cks-badge.png" width="130" height="130" style="opacity: 0.4;"/>
-<img src="img/aws-networking-badge.png" width="130" height="130" style="opacity: 0.4;"/>
-
-<p><strong>9. SCS-C02</strong> • <strong>10. CKS</strong> • <strong>11. ANS-C01</strong></p>
+<p><strong>11. SCS-C02</strong> • <strong>12. ANS-C01</strong></p>
 
 <br/>
 
-### Advanced Architecture & Orchestration
-
-<img src="img/aws-sap-03-badge.png" width="140" height="140" style="opacity: 0.4;"/>
+### Kubernetes Specialist
+<img src="img/kcna-badge.png" width="140" height="140" style="opacity: 0.4;"/>
+<img src="img/ksna-badge.png" width="140" height="140" style="opacity: 0.4;"/>
 <img src="img/cka-badge.png" width="140" height="140" style="opacity: 0.4;"/>
 <img src="img/ckad-badge.png" width="140" height="140" style="opacity: 0.4;"/>
+<img src="img/cks-badge.png" width="140" height="140" style="opacity: 0.4;"/>
 
-<p><strong>6. SAP-C02</strong> • <strong>7. CKA</strong> • <strong>8. CKAD</strong></p>
+<p><strong>7. KCNA</strong> • <strong>8. KSNA</strong> • <strong>9. CKA</strong> • <strong>10. CKAD</strong> • <strong>11. CKS</strong></p>
 
 <br/>
 
-### Foundation & Infrastructure as Code
-
-<img src="img/terraform-badge.png" width="145" height="145" style="opacity: 0.4;"/>
+### Infrastructure as Code & Linux
+<a href="certifications/terraform-associate.md">
+  <img src="img/terraform-badge.png" width="145" height="145"/>
+</a>
+<img src="img/vault-badge.png" width="145" height="145" style="opacity: 0.4;"/>
+<img src="img/aws-sap-03-badge.png" width="145" height="145" style="opacity: 0.4;"/>
 <img src="img/lfcs-badge.png" width="145" height="145" style="opacity: 0.4;"/>
+<img src="img/lfce-badge.png" width="145" height="145" style="opacity: 0.4;"/>
 
-<p><strong>4. TA-003</strong> • <strong>5. LFCS</strong></p>
+<p>
+  <strong><a href="certifications/terraform-associate.md">4. TA-003</a></strong> • 
+  <strong>5. Vault</strong> • 
+  <strong>6. SAP-C02</strong> • 
+  <strong>7. LFCS</strong> • 
+  <strong>8. LFCE</strong>
+</p>
 
 <br/>
 
 ### Cloud Foundation
-
 <a href="certifications/finops-focp.md">
   <img src="img/finops-badge.png" width="150" height="150"/>
 </a>
@@ -68,11 +76,13 @@ PUC Minas (Brazil) | Apr/2025 - Mar/2026
 <a href="certifications/aws-saa-c03.md">
   <img src="img/aws-saa-badge.png" width="150" height="150"/>
 </a>
+<img src="img/github-foundations-badge.png" width="150" height="150" style="opacity: 0.4;"/>
 
 <p>
   <strong><a href="certifications/finops-focp.md">1. FOCP</a></strong> • 
   <strong><a href="certifications/aws-clf-c02.md">2. CLF-C02</a></strong> • 
-  <strong><a href="certifications/aws-saa-c03.md">3. SAA-C03</a></strong>
+  <strong><a href="certifications/aws-saa-c03.md">3. SAA-C03</a></strong> • 
+  <strong>4. GitHub Foundations</strong>
 </p>
 
 </div>
